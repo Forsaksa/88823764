@@ -1,0 +1,33 @@
+html,body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: rgb(45, 44, 44);
+}
+.menu{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.box{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
+.image{
+    width: 50%;
+}
+
+.main{
+    max-width: 700px;
+    margin: auto;
+}
+
+.bottom{
+   padding: 20px;
+   text-align: center;
+    background-color: rgb(182, 178, 178);
+}
