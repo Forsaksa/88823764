@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Workshop form</title>
+    </head>
+    <body>
+        <h1>WORKSHOP#html-form</h1>
+      <form>
+        <label>ชื่อ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="fname"><br>
+        <label>สกุล&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" name="pwd"><br>
+        <label>วัน/เดือน/ปีเกิด</label>
+        <input type="date"><br>
+        <label>อายุ</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="age"><br>
+        <label>เพศ</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" value="male">ชาย
+        <input type="radio" name="gender" value="female">หญิง <br>
+        <label>รูป</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="file"><br><br>
+        <label>ที่อยู่</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea id="start" rows="4" cols="20"></textarea><br>
+        <label>สีที่ชอบ</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="color" >
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+             <option value="orange">orange</option>
+             <option value="green">green</option>
+             <option value="purple">purple</option>
+        </select> <br>
+        แนวเพลงที่ชอบ  <input type="radio" name="song" value="song_life">เพื่อชีวิต
+        <input type="radio" name="song" value="song_tong">ลูกทุ่ง
+        <input type="radio" name="song" value="song_other">อื่นๆ <br><br>
+        <input type="checkbox" name="planguage" value="accept">ยินยอมให้เก็บข้อมูล<br><br><br>
+        <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" name="submit" value="Submit"> 
+      </form>
+    </body>
+</html>
