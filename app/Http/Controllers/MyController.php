@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 class MyController extends Controller
 {
     //
-    function show
+    function show($test = ""){
+        $datas['name'] = "this is my controller";
+        return view('my-view',$datas);
+    }
 }

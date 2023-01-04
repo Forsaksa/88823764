@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/my-route',function(){
     return "<h1>My route</h1>";
 });
+
+Route::get('/my-controller/{input?}',);
